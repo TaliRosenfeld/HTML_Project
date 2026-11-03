@@ -1,0 +1,111 @@
+.galere1 {
+    grid-area: g1;
+    position: relative;
+}
+
+.galere2 {
+    grid-area: g2;
+    position: relative;
+}
+
+.galere3 {
+    grid-area: g3;
+    position: relative;
+}
+
+.galere4 {
+    grid-area: g4;
+    position: relative;
+}
+
+.gal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 130px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        " g1  g2 "
+        " g3  g4 ";
+}
+
+img {
+
+    width: 45vw;
+    height: auto;
+    /* border: 5px solid white; */
+    box-shadow: 10px 10px rgba(8, 11, 11, 0.62);
+    border-radius: 5%;
+}
+
+
+
+.gg {
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    height: 350px;
+    width: 700px;
+
+
+}
+#g1{
+    right: 160px;
+    margin: auto;
+    z-index: 99;
+}
+.textG {
+    font-size: 50px;
+    text-align: center;
+     margin-top: 50px;
+}
+
+.kishor {
+  
+    margin-right: 400px;
+   top: 90px;
+   /* background-color: rgba(70, 170, 152, 0.68); */
+   background-color: rgba(0, 0, 0, 0.491);
+   color: white;
+   border-radius: 5%;
+   font-size: 40px;
+   border: 2px solid white;
+
+}
+
+.gg:hover {
+    opacity: 1;
+}
+#g2{
+    margin: auto;
+    z-index: 99;
+    margin-right: 100px;
+}
+#g3{
+    margin: auto;
+    z-index: 99;
+    margin-right: 80px;
+    margin-top: 630px;
+}
+#g4{
+    margin: auto;
+    z-index: 99;
+    margin-right: 100px;
+    margin-top: 630px;
+}
+/* footer{
+    display: flex;
+    position: absolute;
+    top: 1400px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.535);
+} */

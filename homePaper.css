@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    background-color: rgb(246,221,193);
+}
+
+span {
+    /* background-color: rgb(102, 225, 203); */
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 33px;
+
+}
+
+#home {
+    grid-area: hh;
+    color: aqua;
+}
+
+#galerya {
+    grid-area: aa;
+    color: rgb(233, 161, 229);
+}
+
+#packages {
+    grid-area: bb;
+}
+
+#blug {
+    grid-area: cc;
+}
+
+#order {
+    grid-area: dd;
+}
+
+header {
+    z-index: 100;
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 25%;
+    grid-template-areas:
+        "hh aa bb cc dd aaa";
+    position: fixed;
+
+}
+
+#contact {
+    text-align: center;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+#center {
+    text-align: center;
+}
+
+/* p {
+    color: cornflowerblue;
+    font-size: 20px;
+} */
+
+#godel {
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.ab {
+    color: rgb(215, 174, 203);
+    text-decoration: none;
+}
+.aaa {
+    color: rgb(101, 172, 172);
+    text-decoration: none;
+    height: 20px;
+    width: 100px;
+    border-radius:10%;
+    background-color: aliceblue;
+    position: fixed;
+}
+    .aa {
+        color: rgb(135, 224, 198);
+        text-decoration: none;}
+        .aa:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;}
+    .ab {
+        color: rgb(153, 217, 234);
+        text-decoration: none;
+    }
+    .ab:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;}
+    .ac {
+        color: rgb(200, 191, 231);
+        text-decoration: none;
+    }
+    .ac:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;}
+    .ad {
+        color: rgb(255, 174, 201);
+        text-decoration: none;
+    }
+    .ad:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;}
+    .ae {
+        color: rgb(226, 167, 140);
+        text-decoration: none;
+    }
+    .ae:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;}
+    
+#picture {
+    grid-area: picture;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(102, 225, 203); */
+    background-color: rgb(246,221,193);
+}
+#open {
+    grid-area: open;
+    background-color: rgb(246,221,193);
+    height: 100%;  
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-areas:
+        "open1"
+        "img";
+        
+    /* position: fixed; */
+}
+.otef {
+    top:160px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas:
+        " picture open";
+    /* position: fixed; */
+
+}
+#open1{
+    grid-area: open1;
+    text-align: center;
+    color: rgb(166, 192, 183);
+  
+    border-color: black;
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#img{
+    grid-area: img;
+    width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    position:relative;
+
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.986);
+    /* background-color: rgba(244, 235, 235, 0.761); */
+    color: rgb(237, 240, 240);
+    
+}
+
+.foot{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+        " a b c d ";
+    position: relative;
+    height: 200px;
+    width: 100%;
+    top:160px;
+
+}
+.ii{
+    height:40px;
+    width: 40px;
+   align-items: center;
+   top: 50px;
+   padding:9%;
+  
+}
+#pii{
+    grid-area: a;
+    align-items: center;
+    top: 40px;
+}
+#ei{
+    grid-area: b;
+    text-align: center;
+}
+#hi{
+    grid-area: c;
+}
+#ini{
+    grid-area: d;
+}
+.hh{
+    height: auto;
+    width:250px;
+    align-items: center;
+    left: 50px;
+}
+.back{
+    background-color: rgb(245, 190, 109);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:130px;
+}

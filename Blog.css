@@ -1,0 +1,106 @@
+/* body{
+    ba
+} */
+.blog{
+    position: absolute;
+    top:120px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    gap: 50px
+
+}
+#b1{
+margin-top: 50px;
+}
+.b{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    border-radius: 5%;
+    background-color: cornsilk;
+    opacity: 60%;
+    font-size:25px;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 10px 10px rgba(8, 11, 11, 0.872);
+    margin-top:30px;
+}
+#b1{
+    grid-area: a;
+    top: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#b2{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#b3{
+    grid-area: c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#b4{
+    grid-area: d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#b5{
+    grid-area: e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#b6{
+    grid-area: f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pic{
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+}
+.blo{
+    background-image: url(Picturs/IMG_0184.jpg);
+ 
+}
+tt{
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+
+.foot1{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+        " a b c d ";
+    position: relative;
+    height: 200px;
+    width: 100%;
+    /* top:120px; */
+
+}
+

@@ -1,0 +1,23 @@
+body{
+    background-image: url(  Picturs/allc/צילום\ נחמי\ רוטשטיין\ 0527164343\ \(3\).jpg);
+    
+   
+}
+p{
+    color: rgb(243, 210, 143);
+    /* text-align: center; */
+    position: relative; 
+    top: 120px;
+}
+div{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:120px;
+    text-align: center;
+}
+input,textarea,select,button{
+    background-color: bisque;
+    height: 20px;
+    width: 200px;
+}

@@ -1,0 +1,19 @@
+.food {
+    width: 33%;
+    height: auto;
+}
+
+.foodImg {
+    top: 120px;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img {
+    width: 99%;
+    top: 140px;
+    margin: 2px;
+} 
+ 
+

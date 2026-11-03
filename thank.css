@@ -1,0 +1,28 @@
+p{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(190, 124, 36);
+}
+p::first-line{
+    font-size: 290px;
+    text-align: center;
+    color: rgb(129, 90, 17);
+}
+img{
+    z-index: 100;
+    background-position: bottom right;
+}
+body{
+    background-image: url(Picturs/allc/IMG_0273.jpg);
+}
+.back{
+    background-color: rgb(245, 190, 109);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 230px;
+}
